@@ -52,9 +52,6 @@ Run the following kubectl commands
 kubectl create namespace cpu
 kubectl label namespaces cpu apps.tanzu.vmware.com/tap-ns=""
 kubectl get secrets,serviceaccount,rolebinding,pods,workload,configmap -n cpu
-```
-
-Check the output from the last command
 
 NAME                            TYPE                             DATA   AGE
 secret/registries-credentials   kubernetes.io/dockerconfigjson   1      1s
@@ -68,6 +65,11 @@ rolebinding.rbac.authorization.k8s.io/default-permit-workload      ClusterRole/w
 
 NAME                         DATA   AGE
 configmap/kube-root-ca.crt   1      2s
+
+```
+
+Check the output from the last command to be sure all permissions stuff are set
+
 
 
 
