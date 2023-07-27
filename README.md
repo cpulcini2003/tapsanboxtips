@@ -4,7 +4,7 @@ Go to the https://portal.tapsandbox.com/ portal and ask for a new session
 
 ## Prerequisites
 
-Register and create uses: only vmware.com domain accounta are enabled
+Register and create uses: only vmware.com domain account are enabled
 
 ## Settign up local environment
 
@@ -69,6 +69,8 @@ configmap/kube-root-ca.crt   1      2s
 ```
 
 Check the output from the last command to be sure all permissions stuff are set
+
+ENJOY WORKLOAD DEPLOYMENT!!!!
 
 
 
